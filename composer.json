@@ -1,8 +1,5 @@
 {
-    "name": "monolog/monolog",
-    "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
-    "keywords": ["log", "logging", "psr-3"],
-    "homepage": "http://github.com/Seldaek/monolog",
+    "name": "seld/private-test",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,26 +12,6 @@
     "require": {
         "php": ">=5.3.0",
         "psr/log": "~1.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~3.7.0",
-        "graylog2/gelf-php": "~1.0",
-        "raven/raven": "~0.5",
-        "ruflin/elastica": "0.90.*",
-        "doctrine/couchdb": "~1.0@dev",
-        "aws/aws-sdk-php": "~2.4, >2.4.8"
-    },
-    "suggest": {
-        "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
-        "raven/raven": "Allow sending log messages to a Sentry server",
-        "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
-        "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
-        "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
-        "ext-mongo": "Allow sending log messages to a MongoDB server",
-        "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB"
-    },
-    "autoload": {
-        "psr-4": {"Monolog\\": "src/Monolog"}
     },
     "extra": {
         "branch-alias": {
