@@ -1,5 +1,6 @@
 {
     "name": "seld/dummy",
+    "description": "dummy empty package, nothing to see here.",
     "type": "library",
     "license": "MIT",
     "authors": [
